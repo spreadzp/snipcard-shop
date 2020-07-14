@@ -1,0 +1,12 @@
+{
+  "hosting": {
+    "public": "dist/scully-snipcart",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ],
+    "rewrites": [ 
+    ]
+  }
+}
