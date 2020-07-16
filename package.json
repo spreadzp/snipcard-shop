@@ -12,7 +12,8 @@
     "scully:serve": "scully serve",
     "scully-deploy-dev": "npm run scully:serve -- --scanRoutes",
     "scully-deploy-prod": "npm run scully -- --scanRoutes",
-    "firebase-deploy": "firebase deploy"
+    "firebase-deploy": "firebase deploy",
+    "github-deploy": "ng deploy --base-href=/snipcard-shop/"
   },
   "private": true,
   "dependencies": {
@@ -35,9 +36,10 @@
     "@angular-devkit/build-angular": "~0.901.8",
     "@angular/cli": "~9.1.8",
     "@angular/compiler-cli": "~9.1.11",
-    "@types/node": "^12.11.1",
     "@types/jasmine": "~3.5.0",
     "@types/jasminewd2": "~2.0.3",
+    "@types/node": "^12.11.1",
+    "angular-cli-ghpages": "^0.6.2",
     "codelyzer": "^5.1.2",
     "jasmine-core": "~3.5.0",
     "jasmine-spec-reporter": "~4.2.1",

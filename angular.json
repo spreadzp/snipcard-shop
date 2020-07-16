@@ -122,8 +122,13 @@
               "devServerTarget": "scully-snipcart:serve:production"
             }
           }
+        },
+        "deploy": {
+          "builder": "angular-cli-ghpages:deploy",
+          "options": {}
         }
       }
-    }},
+    }
+  },
   "defaultProject": "scully-snipcart"
 }
